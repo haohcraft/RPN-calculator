@@ -1,0 +1,25 @@
+{
+  "name": "TEST",
+  "version": "0.0.1",
+  "author": "Hao Huang",
+  "devDependencies": {
+    "css-loader": "^0.9.0",
+    "file-loader": "^0.8.1",
+    "jest": "^0.1.37",
+    "jest-cli": "^0.2.0",
+    "jshint": "^2.5.10",
+    "jshint-loader": "^0.8.0",
+    "jsx-loader": "^0.12.2",
+    "less": "^1.7.5",
+    "less-loader": "^0.7.7",
+    "lodash": "^2.4.1",
+    "path": "^0.4.9",
+    "react": "^0.12.1",
+    "style-loader": "^0.8.2",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.4.13"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

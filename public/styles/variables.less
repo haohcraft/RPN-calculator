@@ -1,0 +1,32 @@
+/*==========================================
+=            LESS for variables            =
+==========================================*/
+
+/*==========  Color  ==========*/
+@color-white: #ffffff;
+@color-blue: #00cded;
+@color-blue-bright: #07deff;
+@color-grey-light: #797979;
+
+/*==========  Font  ==========*/
+.font(@fontSize: 22px, @fontColor: #000000, @fontWeight: normal) {
+	font-family: "'Circular', 'Helvetica', sans-serif";
+	font-size: @fontSize;
+	font-weight: @fontWeight;
+		
+	line-height: @fontSize;
+	color: @fontColor;
+}
+
+/*==========  Helper  ==========*/
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+
+/*-----  End of LESS for variables  ------*/
+

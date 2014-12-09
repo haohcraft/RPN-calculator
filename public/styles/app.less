@@ -1,0 +1,53 @@
+/*====================================
+=            LESS for APP            =
+====================================*/
+@import "variables.less";
+
+.app {
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 50px;
+
+	.input {
+
+		.input-field {
+			float: left;
+			width: 450px;
+			height: 80px;
+			padding: 0;
+			color: #8e44ad;
+			border: 2px solid @color-blue;
+			text-align: center;
+			border-radius: 0;
+			.font();
+		}
+
+		.input-button {
+			float: left;
+			width: 100px;
+			height: 84px;
+			text-align: center;
+			line-height: 84px;
+			color: white;
+			background-color: @color-blue;
+			cursor: pointer;
+
+			&:hover {
+				background-color: @color-blue-bright;
+			}
+		}
+	}
+
+	.result {
+		width: 554px;
+		height: 80px;
+		padding: 10px 0px;
+		text-align: left;
+		line-height: 80px;
+		.font(16px);
+	}
+}
+
+
+/*-----  End of LESS for APP  ------*/
+
