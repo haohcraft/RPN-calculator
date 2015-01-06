@@ -49,6 +49,6 @@ module.exports = {
   },
   plugins: [
     // If you want to minify everything
-    // new webpack.optimize.UglifyJsPlugin()
+    new webpack.optimize.UglifyJsPlugin()
   ]
 };
