@@ -33,8 +33,7 @@ var UtilsRPN = {
 	 * @return {boolean}       [whether the process is confucted correctly or not]
 	 */
 	calculateRPN : function (input) {
-		
-		debugger;
+
 		var isSucceed = true;
 		var args = input.trim().split(/\s+/); // Extract numbers and operators
 		var arg
